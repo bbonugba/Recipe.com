@@ -54,6 +54,26 @@
                 </a>
             </div>
         </nav>
+        <!-- slider -->
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="Images/cake_fruit.jpg" alt="" class="responsive-img">
+                    </li>
+                    <li>
+                        <img src="Images/shrimp_soup.jpg" alt="" class="responsive-img">
+                    </li>
+                    <li>
+                        <img src="Images/chicken_3.jpg" alt="" class="responsive-img">
+                    </li>
+                    <li>
+                        <img src="Images/dessert_chocolate.jpg" alt="" class="responsive-img">
+                    </li>
+                    <li>
+                        <img src="Images/ginger_cake.webp" alt="" class="responsive-img">
+                    </li>
+                </ul>
+            </div>
     </header>
 
     <main>
@@ -77,17 +97,22 @@
     <footer></footer>
 
        <!-- Javascript Below -->
-       <script src="js/jquery.js"></script>
-       <script src="js/materialize.js"></script>
-       <script>
-           $(document).ready(function(){
-           //  $('.modal').modal();  
-           //  $('.collapsible').collapsible();  
-           //  $('.sidenav').sidenav();  
-   
-           });
-   
-       </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+         $('.slider').slider({
+            indicators:true,
+            // height:500
+            // duration:1500,
+            // interval:10000
+
+         });  
+        //  $('.carousel').carousel()
+        //  $('.parallax').parallax()
+        });
+
+    </script>
 
 </body>
 </html>
