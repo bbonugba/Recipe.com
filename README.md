@@ -1,1 +1,1 @@
-This is our first project which inculcates most of what we've learned as we come to the end of FrontEndDev. Beginning from basic HTML to the use of Modala, Collapsibles, Parallax, Cards, Sliders and JS fxns are all merged into this project. I had fun doing this! WebDev certainly rocks!
+This is our first project which inculcates most of what we've learned as we come to the end of FrontEndDev. Beginning from basic HTML to the use of Modals, Collapsibles, Parallax, Cards, Sliders and JS fxns are all merged into this project. I had fun doing this! WebDev certainly rocks!
