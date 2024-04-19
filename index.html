@@ -32,14 +32,17 @@
                         <a href="" class="brand-logo left">
                             <img src="Images/logo.png" alt="" width="70px" >
                         </a>
+                        <a href="#mobile" class="sidenav-trigger right" >
+                            <i class="material-icons orange darken-4">menu</i>
+                        </a>
                         <!-- links on Navbar -->
                         <a href="" class="menu">
-                            <ul class="right">
+                            <ul class="right hide-on-med-and-down">
                                 <li>
-                                    <a href="" class="orange-text text-darken-4">Home</a>
+                                    <a href="#home" class="orange-text text-darken-4">Home</a>
                                 </li>
                                 <li>
-                                    <a href="" class="orange-text text-darken-4">Cakes</a>
+                                    <a href="#cakes" class="orange-text text-darken-4">Cakes</a>
                                 </li>
                                 <li>
                                     <a href="" class="orange-text text-darken-4">Soups</a>
@@ -50,9 +53,26 @@
                                 <li>
                                     <a href="" class="orange-text text-darken-4">Customer's</a>
                                 </li>
-
                             </ul>
                         </a>
+                        
+                        <ul class="sidenav orange lighten-3" id="mobile">
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Cakes</a>
+                            </li>
+                            <li>
+                                <a href="">Soups</a>
+                            </li>
+                            <li>
+                                <a href="">Chicken</a>
+                            </li>
+                            <li>
+                                <a href="">Customer's Comments</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -83,7 +103,7 @@
         <!-- Home -->
         <Section class="section" >
             <div class="container">
-                <h2 class="orange-text text-darken-4">Hello there, foodies!</h2>
+                <h2 class="orange-text text-darken-4" id="Home" >Hello there, foodies!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam fuga tenetur illo provident voluptate dolorem voluptatum quam beatae dolores itaque, et nostrum nulla aspernatur, explicabo in distinctio modi maiores soluta suscipit excepturi natus praesentium adipisci corporis! Nostrum vero deserunt obcaecati, facilis dolorem tempora eos ullam totam commodi libero? Porro?</p>
 
                 <br>
@@ -145,7 +165,7 @@
         <Section class="section" >
             <!-- Collections -->
             <div class="container">
-                <h3 class="orange-text text-darken-4">
+                <h3 class="orange-text text-darken-4" id="customer" >
                     What Our Customers Say...
                 </h3>
 
@@ -189,7 +209,7 @@
         <!-- Cake Cards -->
         <Section class="section" >
             <div class="container">
-                <h3 class="orange-text darken-4">Cakes</h3>
+                <h3 class="orange-text darken-4" id="cakes" >Cakes</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex facere nulla laudantium facilis natus molestiae reiciendis non quidem ducimus recusandae sapiente, vel blanditiis nobis quis consectetur ratione modi quaerat ipsum placeat eaque quibusdam expedita aspernatur voluptas repellat. Temporibus, culpa numquam!</p>
                 <br>
 
@@ -350,7 +370,7 @@
         <!-- Soups -->
         <Section class="section" >
             <div class="container">
-                <h3 class="orange-text text-darken-4">Soups</h3>
+                <h3 class="orange-text text-darken-4" id="soups" >Soups</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio ratione maxime iure hic aliquid dolore, repellat obcaecati? Eos quam commodi, in ex repellat facilis dolore eaque! Beatae, sapiente facere!</p>
 
                 <div class="row">
@@ -508,7 +528,7 @@
         <!-- Chicken -->
         <Section class="section" >
             <div class="container">
-                <h3 class="orange-text darken-4">Chicken</h3>
+                <h3 class="orange-text darken-4" id="chicken" >Chicken</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex facere nulla laudantium facilis natus molestiae reiciendis non quidem ducimus recusandae sapiente, vel blanditiis nobis quis consectetur ratione modi quaerat ipsum placeat eaque quibusdam expedita aspernatur voluptas repellat. Temporibus, culpa numquam!</p>
                 <br>
 
@@ -672,19 +692,19 @@
                     <h4 class="orange-text text-darken-4">Quick Links</h4>
                     <ul>
                         <li>
-                            <a href="" class="white-text" >Back to top</a>
+                            <a href="#home" class="white-text" >Back to top</a>
                         </li>
                         <li>
-                            <a href="" class="white-text" >Cakes</a>
+                            <a href="#cakes" class="white-text" >Cakes</a>
                         </li>
                         <li>
-                            <a href="" class="white-text" >Soups</a>
+                            <a href="#soups" class="white-text" >Soups</a>
                         </li>
                         <li>
-                            <a href="" class="white-text" >Chicken</a>
+                            <a href="#chicken" class="white-text" >Chicken</a>
                         </li>
                         <li>
-                            <a href="" class="white-text" >Customer's</a>
+                            <a href="#customer" class="white-text" >Customer's</a>
                         </li>
                     </ul>  
                 </div>
@@ -711,6 +731,7 @@
         $('.materialboxed').materialbox(); 
         //  $('.carousel').carousel()
          $('.parallax').parallax()
+         $('.sidenav').sidenav();  
         });
 
     </script>
